@@ -17,9 +17,11 @@ LINKING
 
 `ld -m elf_i386 -T linker.ld -o byte.bin boot.o kernel.o`
 
-BOOTING (QEMU
+BOOTING (QEMU)
 
 `qemu-system-i386 -kernel kernel.bin`
+
+And if you are lazy, a pre-compiled version will always be available in the [releases](https://github.com/koredev-lolz/byteOS/releases) tab
 
 
 The current version is version 0.0.1 (codename and kernel name nebula)
